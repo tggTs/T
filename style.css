@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-family: "Segoe UI", sans-serif;
 }
-
 .container, #form1, #form2 {
     max-width: 600px;
     margin: 40px auto;
@@ -14,8 +13,6 @@ body {
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
-
-/* контейнер в полях (подсветка) */
 #form1 .mb-3, #form2 .mb-3 {
     border: 1px solid #e2e2e2;
     border-radius: 8px;
@@ -28,8 +25,6 @@ body {
     border-color: #0d6efd;
     box-shadow: 0 0 8px rgba(13,110,253,0.3);
 }
-
-/* поля */
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -52,15 +47,12 @@ select:focus {
     outline: none;
 }
 
-/* чекбокс */
 input[type="checkbox"] {
     width: 18px;
     height: 18px;
     margin-right: 8px;
     transform: scale(1);
 }
-
-/* кнопки */
 button {
     width: 100%;
     padding: 12px;
@@ -71,14 +63,11 @@ button {
     font-size: 18px;
     transition: 0.25s;
 }
-
-/* сообщения */
 .message {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
-
 .success {
     background: #d4edda;
     color: #155724;
@@ -88,8 +77,6 @@ button {
     background: #f8d7da;
     color: #721c24;
 }
-
-/* для мобилок */
 @media (max-width: 480px) {
     .container, #form1, #form2 {
         margin: 20px;
