@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-    // формы
     $("#form1").on("submit", function (e) {
         e.preventDefault();
 
@@ -22,7 +21,6 @@ $(document).ready(function () {
         alert("Запрос отправлен!");
     });
 
-    // блок с отзывами
     function loadReviews() {
         $.ajax({
             url: "reviews.json",
